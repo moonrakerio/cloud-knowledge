@@ -42,51 +42,7 @@ ingestion. Amazon S3 provides cost-effective object storage for a wide variety o
 cases including backup and recovery, nearline archive, big data analytics, disaster
 recovery, cloud applications, and content distribution.
 
-## Template Variables
 
-Below are a list of template variables available to use in their respective templates:
 
-**home.html**
-
-* `config`: Holds an array of values from `config.js`
-* `pages`: Structured list of categories and pages (used for navigation)
-* `body_class`: Class for the `<body>` tag
-
-**page.html**
-
-* `config`: Holds an array of values from `config.js`
-* `pages`: Structured list of categories and pages (used for navigation)
-* `body_class`: Class for the `<body>` tag
-* `meta`: Holds an array of values taken from the page meta comment block (e.g. `meta.title`)
-* `content`: The HTML content of the page
-* `last_modified`: The formatted date of the time the file was last modified
-
-**search.html**
-
-* `config`: Holds an array of values from `config.js`
-* `pages`: Structured list of categories and pages (used for navigation)
-* `body_class`: Class for the `<body>` tag
-* `search`: The current search query
-* `searchResults`: An array search results
-
-## Array Structure
-
-The `pages` array has a structure similar to the following:
-
-* `slug`: The categoy slug
-* `title`: The category title
-* `is_index`: True for the top level files (ie not in a category)
-* `class`: CSS class
-* `sort`: The sort index for this category
-* `files[]`: Array of pages in this category
-* `slug`: The page slug
-* `title`: The page title
-* `active`: True if the current page is "active"
-* `sort`: The sort index for this page
-
-The `searchResults` array contains items which include:
-
-* `slug`: The page slug
-* `title`: The page title
 * `body`: The page content
 * `excerpt`: The page excerpt
