@@ -7,7 +7,7 @@ content delivery and other functionality to help businesses scale and grow. Expl
 are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased
 flexibility, scalability and reliability.
 
-## Amazon Elastic Compute (EC2)
+## [Amazon Elastic Compute (EC2)](https://aws.amazon.com/ec2/?nc2=h_m1)
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute
 capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
 Amazon EC2’s simple web service interface allows you to obtain and configure
@@ -41,6 +41,7 @@ as well as cloud data migration services and gateways for initial or ongoing dat
 ingestion. Amazon S3 provides cost-effective object storage for a wide variety of use
 cases including backup and recovery, nearline archive, big data analytics, disaster
 recovery, cloud applications, and content distribution.
+
 
 
 
