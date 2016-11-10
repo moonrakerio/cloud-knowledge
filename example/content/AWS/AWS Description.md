@@ -2,23 +2,24 @@
 Title: Amazon Web Services
 */
 
-Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow. Explore how millions of customers are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased flexibility, scalability and reliability. [Mustache](http://mustache.github.io). All of the template views can
-be found in the `themes/default/` folder. Feel free to customize the template as you wish. The template structure
-is as follows:
-
-* `layout.html`: The parent template. You'll probably want to customize this first
-* `home.html`: The homepage template. Shown if you don't have an [index.md](%base_url%/usage/custom-homepage)
-* `page.html`: The template used for single pages
-* `search.html`: The template used for search results
-* `error.html`: Shown when Raneto encounters an error or can't find a page
+Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage,
+content delivery and other functionality to help businesses scale and grow. Explore how millions of customers
+are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased
+flexibility, scalability and reliability.
 
 Remember you will need to restart the app after changing the template.
 
-## Public Files
-
-All static files in Raneto (images, CSS, Javascript files etc.) are served from the `public` folder. This
-is so that no one can access any other files in the install. Only files in the `public` folder are available
-to the public.
+## Amazon Elastic Compute (EC2)
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute
+capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+Amazon EC2’s simple web service interface allows you to obtain and configure
+capacity with minimal friction. It provides you with complete control of your
+computing resources and lets you run on Amazon’s proven computing environment.
+Amazon EC2 reduces the time required to obtain and boot new server instances to
+minutes, allowing you to quickly scale capacity, both up and down, as your computing
+requirements change. Amazon EC2 changes the economics of computing by allowing you to
+pay only for capacity that you actually use. Amazon EC2 provides developers the tools to
+build failure resilient applications and isolate themselves from common failure scenarios.
 
 It's worth noting that when customising Raneto you should always make your own files rather than customising
 the existing Raneto files, so that your changes don't get lost when you
