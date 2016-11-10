@@ -7,8 +7,6 @@ content delivery and other functionality to help businesses scale and grow. Expl
 are currently leveraging AWS cloud products and solutions to build sophisticated applications with increased
 flexibility, scalability and reliability.
 
-Remember you will need to restart the app after changing the template.
-
 ## Amazon Elastic Compute (EC2)
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute
 capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
